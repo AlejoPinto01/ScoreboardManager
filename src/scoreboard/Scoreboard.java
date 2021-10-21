@@ -549,7 +549,7 @@ public class Scoreboard extends javax.swing.JFrame {
     private void mnuGithubActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnuGithubActionPerformed
         if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
             try {
-                Desktop.getDesktop().browse(new URI("https://github.com/AlejoPinto01/Scoreboard"));
+                Desktop.getDesktop().browse(new URI("https://github.com/AlejoPinto01/ScoreboardManager"));
             } catch (URISyntaxException ex) {
                 Logger.getLogger(Scoreboard.class.getName()).log(Level.SEVERE, null, ex);
             } catch (IOException ex) {
